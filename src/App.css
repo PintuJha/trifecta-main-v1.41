@@ -1,0 +1,222 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .B {
+    background-color: bisque;
+  }
+  
+
+  .bread-link-sec li{
+  cursor: pointer;
+  }
+
+  /* ==========TOP HEADER CODE START=========== */
+  header.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorPrimary.App-appBar-2.mui-fixed.MuiPaper-elevation4 {
+    background: #fff;
+    height: 120px;
+    padding: 1.5rem 0;
+    box-shadow: 0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%);
+}
+.App-menuButtonIconClosed-5 {
+  color: #8f8f8f;
+}
+.App-menuButtonIconOpen-6{
+  color: #8f8f8f;
+}
+header h6.MuiTypography-root.App-grow-13.MuiTypography-h6.MuiTypography-colorInherit.MuiTypography-noWrap {
+  color: #8f8f8f;
+}
+header .MuiIconButton-colorInherit {
+  color: #8f8f8f;
+}
+ /* ==========TOP HEADER CODE END=========== */
+
+/* ==============Left Menu Code Start=============== */
+.App-drawerClose-10 {
+  width: 130px !important;
+}
+.App-drawerOpen-9 {
+  width: 0px !important;
+}
+
+.menu-section-left {
+  height: 100% !important;
+  z-index: 3;
+  padding-top: 120px !important;
+  left: 0 !important;
+  box-shadow: 0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%) !important;
+}
+.menu-section-left .MuiListItem-gutters {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.menu-section-left .MuiDivider-root {
+  border: none !important;
+  height: 1px;
+  margin: 0;
+  flex-shrink: 0;
+  background-color: #f3f3f3;
+}
+.MuiDrawer-paper {
+  top: 0;
+  flex: 1 0 auto;
+  height: 100%;
+  display: flex;
+  outline: 0;
+  z-index: 1200;
+  position: fixed;
+  box-shadow: 0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%) !important;
+  border-right: 0px !important;
+  flex-direction: column;
+  -webkit-overflow-scrolling: touch;
+}
+.menu-section-left ul.MuiList-root.MuiList-padding div a {
+  margin: 0px auto;
+  padding: 10px 0px;
+  text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    border-bottom: 0px solid #f3f3f3;
+    color: #212121;
+}
+
+.menu-section-left .MuiListItem-root {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menu-section-left .MuiList-padding {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.menu-section-left ul.MuiList-root.MuiList-padding div a span{
+    font-size: 13px;
+}
+.menu-section-left .MuiListItemIcon-root {
+  min-width: auto;
+}
+/* ==============Left Menu Code END=============== */
+
+/* =============BODY SECTION CODE START================ */
+.App-content-12 {
+  margin: 140px 30px 40px 45px;
+  padding: 15px !important;
+}
+.App-toolbar-11 {
+  min-height: 0px !important;
+  margin-top: 0px !important;
+}
+.bread-link-sec{
+  margin-bottom: 13px !important;
+}
+/* =============BODY SECTION CODE START================ */
+::-webkit-scrollbar {
+  width: 4px;
+
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 50px; 
+}
+::-webkit-scrollbar-thumb {
+  background: #d7d7d7; 
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d7d7d7; 
+  border-radius: 50px;
+}
+.chanel-heading{
+  margin-top: 10px;
+    font-weight: 700;
+    margin-right: 12px;
+}
+
+.scroll-table {
+  width: 82rem;
+  overflow: auto;
+}
+.scroll-table table.table.table-bordered th {
+  text-align: center;
+}
+
+
+
+
+/* ===============MEDIA QUARY CODE START================= */
+@media (max-width: 1440px) { 
+  .scroll-table {
+    width: 76rem;
+    overflow: auto;
+}
+  
+}
+@media (max-width: 1399.98px) { 
+  .scroll-table {
+    width: 72rem;
+    overflow: auto;
+}
+  
+}
+@media (max-width: 1199.98px) { 
+  .scroll-table {
+    width: 72rem;
+    overflow: auto;
+}
+
+}
+
+@media (max-width: 991.98px) { 
+
+}
+@media (max-width: 767.98px) {
+  .App-root-1 {
+    display: inherit !important;
+}
+header.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorPrimary.App-appBar-2.mui-fixed.MuiPaper-elevation4 {
+  background: #fff;
+  height: 80px !important;
+  padding: 1rem 0 !important;
+  box-shadow: 0 1px 15px rgb(0 0 0 / 4%), 0 1px 6px rgb(0 0 0 / 4%);
+}
+.menu-section-left {
+  padding-top: 80px;
+}
+.App-content-12 {
+  margin: 105px 15px 25px 15px;
+}
+.App-drawerClose-10 {
+  width: 0px !important;
+}
+.App-drawerOpen-9{
+  width: 130px !important;
+}
+.MuiFormControl-root.float-left {
+  width: 50% !important;
+}
+.MuiFormControl-root.float-right {
+  width: 50% !important;
+}
+}
+@media (max-width: 575.98px) { 
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===============MEDIA QUARY CODE START================= */
